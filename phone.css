@@ -1,0 +1,89 @@
+@media only screen and (max-width: 668px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* This Is The Body */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Lemon', cursive;
+    font-family: 'Montez', cursive;
+    font-family: 'Montserrat', sans-serif; */
+}
+
+/* This Is The Nav- Section */
+#nav-section {
+    flex-direction: column;
+}
+
+/* This Is The Navbar Logo Section */
+.nav-logo {
+    flex-direction: column;
+    padding: 1px 4px;
+    margin: 5px 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* This Is The Menu Section  */
+.nav-menu ul {
+    flex-direction: column;
+    margin: 7px 13px;
+    width: 527px;
+    height: 206px;
+}
+
+.nav-menu ul {
+    flex-direction: column;
+}
+
+
+/* This Is The Social Menu */
+
+#social-menu {
+    flex-direction: column;
+    float: right;
+    width: 396px;
+    margin: 10px 35px;
+}
+
+.icon-style {
+    padding: 10px 10px;
+    margin: 4px 11px;
+    color: white;
+    border-radius: 50%;
+}
+
+/* This Is The Banner Section */
+
+#banner-section {
+    height: 370px;
+    padding: 3px 68px;
+}
+
+
+#banner-section::before {
+    height: 600px;
+}
+/* This Is The Services  */
+#service-section {
+    flex-direction: column;
+}
+
+/* This Is The Clients Section */
+
+
+/* This Is The Contact Section */
+
+/* This The Footer Section */
